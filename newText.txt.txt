@@ -1,1 +1,5 @@
 efwfewfewfewdvgdffdsfsdfdsfdsfdsfdsf
+
+IdentityHashMap in Java was added in Java 1.4 but still it's one of those lesser known class in Java. The main difference between IdentityHashMap and HashMap in Java is that IdentityHashMap is a special implementation of Map interface which doesn't use equals() and hashCode() method for comparing object unlike other implementation of Map e.g. HashMap. Instead, IdentityHashMap uses equality operator "=="  to compare keys and values in Java which makes it faster compare to HashMap and suitable where you need reference equality check and instead of logical equality. By the way, IdentityHashMap is a special implementation of Map interface much like EnumMap but it also violates general contract of Map interface which mandates using equals method for comparing Object. Also, IdentityHashMap vs HashMap is a good Java question and have been asked a couple of times.
+
+Read more:  
